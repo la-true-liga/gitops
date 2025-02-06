@@ -1,0 +1,8 @@
+react:
+  image:
+    repository: ruzafa8/portfolio
+    tag: "latest"
+
+  ingress:
+    hosts:
+      - host: alex.ustedgracias.tech
