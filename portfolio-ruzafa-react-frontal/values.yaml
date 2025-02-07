@@ -6,3 +6,5 @@ react:
   ingress:
     hosts:
       - host: alex.ustedgracias.tech
+        paths:
+          - path: /(.*)
