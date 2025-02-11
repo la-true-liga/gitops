@@ -1,11 +1,10 @@
 react:
   image:
     repository: ruzafa8/portfolio
+    pullPolicy: Always
     tag: "latest"
 
   ingress:
-    annotations:
-      nginx.ingress.kubernetes.io/rewrite-target: /
     hosts:
       - host: alex.ustedgracias.tech
         paths:
