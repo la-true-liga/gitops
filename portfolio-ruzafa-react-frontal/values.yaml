@@ -6,7 +6,7 @@ react:
 
   ingress:
     hosts:
-      - host: alex.ustedgracias.tech
+      - host: alex.weasiti.foo
         paths:
           - path: /(.*)
             pathType: ImplementationSpecific
