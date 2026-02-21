@@ -1,0 +1,12 @@
+react:
+  image:
+    repository: ruzafa8/my-despensa
+    pullPolicy: Always
+    tag: "latest"
+
+  ingress:
+    hosts:
+      - host: despensa.lawea.foo
+        paths:
+          - path: /(.*)
+            pathType: ImplementationSpecific
